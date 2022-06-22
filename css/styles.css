@@ -559,7 +559,6 @@ address {
     color: var(--accent-color);
 }
 
-/*FOOTER  */
 
 .page-footer__title {
     margin-bottom: 20px;
@@ -717,7 +716,7 @@ address {
     position: relative;
     color: var(--title-text-color);
 
-    transition: border-color 250ms var(--timing)
+    transition: border-color 250ms var(--timing);
 }
 
 .modal-form__field:nth-child(5) {

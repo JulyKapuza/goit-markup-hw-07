@@ -36,9 +36,23 @@ address {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &--no-padding {
+            padding-top: 0;
+        }
 }
 
 .link {
     text-decoration: none;
 
 }
+
+.section__title {
+    color: var(--title-text-color);
+    font-weight: var(--fw-title-700);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
