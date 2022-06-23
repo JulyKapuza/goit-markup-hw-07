@@ -16,12 +16,13 @@
 
     transition: color 250ms var(--timing);
 
-    &__:hover,
-    &__:focus {
+        &:hover,
+        &:focus {
             color: var(--accent-color);
         }
+
         
-    &--current {
+        &--current {
         color: var(--accent-color);
 
         &::after{
@@ -40,6 +41,7 @@
     }
 
 }
+
 
 
 .site-nav__item {
